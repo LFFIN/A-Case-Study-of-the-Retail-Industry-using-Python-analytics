@@ -15,10 +15,6 @@ The dataset used for this project is sourced from Kaggle and is focused on sales
 To set up the project environment and run the analysis, follow these steps:
 This project requires Python 3.x. Instructions are provided for installation using standard Python tools and Anaconda 
 
-1. **Clone the Repository**
-
-   Begin by cloning the project repository from GitHub to your local machine. Use the following command in your terminal:
-
 
 ## Usage
 
