@@ -19,9 +19,6 @@ This project requires Python 3.x. Instructions are provided for installation usi
 
    Begin by cloning the project repository from GitHub to your local machine. Use the following command in your terminal:
 
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
-
 
 ## Usage
 
@@ -34,13 +31,4 @@ This project requires Python 3.x. Instructions are provided for installation usi
 - `scipy`: For scientific and technical computing.
 - `plotly`: For interactive and publication-quality graphs.
 
-```bash
-# Clone this repository
-git clone [repo-url]
-
-# Go into the repository
-cd [repo-name]
-
-# Install dependencies
-pip install -r requirements.txt
 
