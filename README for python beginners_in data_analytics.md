@@ -32,12 +32,13 @@ Learn how to control the flow of your Python programs with conditional statement
 
 ### Example: A Simple Function
 
-
+```
 def greet(name):
     return f"Hello, {name}!"
 ´´´ 
 
 print(greet("World"))  # Output: Hello, World!
+```
 Diving Into Data with Pandas
 Pandas is a powerhouse library for data manipulation and analysis, providing flexible data structures to work with structured data.
 
@@ -49,23 +50,24 @@ Learn techniques for preprocessing data, such as handling missing values and rem
 
 Example: Reading a CSV File
 
-Copy code
+```
 import pandas as pd
 
 df = pd.read_csv('data/sample_data.csv')
 print(df.head())
+```
 
 Numerical Analysis with NumPy
 NumPy is essential for numerical computing in Python. It provides support for large, multidimensional arrays and matrices, along with a collection of mathematical functions.
 
 Example: Basic Array Operations
 
-Copy code
+```
 import numpy as np
 
 arr = np.array([1, 2, 3, 4])
 print(arr * 2)  # Output: [2 4 6 8]
-
+``` 
 Visualizing Data
 Data visualization is a critical skill in data analytics, allowing you to uncover insights from your data graphically.
 
@@ -74,13 +76,13 @@ Learn to use Matplotlib for basic visualizations and Seaborn for more complex, s
 
 Example: Plotting a Line Chart
 
-Copy code
+```
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 plt.ylabel('Some numbers')
 plt.show()
-
+```
 Statistical Foundations
 Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions.
 
@@ -89,12 +91,12 @@ Learn how to calculate and interpret measures like mean, median, and standard de
 
 Example: Calculating the Mean with NumPy
 
-Copy code
+```
 import numpy as np
 
 data = np.array([1, 2, 3, 4, 5])
 print(np.mean(data))  # Output: 3.0
-
+``` 
 Advanced Topics
 As you grow more comfortable with the basics, explore advanced topics like machine learning with scikit-learn, time series analysis, and deep learning fundamentals.
 
