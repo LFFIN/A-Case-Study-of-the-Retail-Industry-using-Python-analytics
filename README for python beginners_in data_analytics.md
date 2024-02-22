@@ -71,7 +71,7 @@ Data visualization is a critical skill in data analytics, allowing you to uncove
 # Matplotlib & Seaborn
 Learn to use Matplotlib for basic visualizations and Seaborn for more complex, statistical visualizations.
 
-#Example: Plotting a Line Chart
+Example: Plotting a Line Chart
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
@@ -88,7 +88,7 @@ plt.show()
 
 ### Example: Calculating the Mean with NumPy
 
-```python
+python
 import numpy as np
 
 data = np.array([1, 2, 3, 4, 5])
