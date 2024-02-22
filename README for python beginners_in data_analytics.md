@@ -96,10 +96,10 @@ print(np.mean(data))  # Output: 3.0
 
 .........................
 Advanced Topics
-As you grow more comfortable with the basics, explore advanced topics like machine learning with scikit-learn, time series analysis, and deep learning fundamentals.
+'As you grow more comfortable with the basics, explore advanced topics like machine learning with scikit-learn, time series analysis, and deep learning fundamentals'
 
-## Contributing
-Contributions to this repository are welcome! Please read through our contributing guidelines for more information on how to participate.
+# Contributing
+'Contributions to this repository are welcome! Please read through our contributing guidelines for more information on how to participate'
 
 #Resources
 Pandas Documentation
