@@ -37,7 +37,7 @@ def greet(name):
     return f"Hello, {name}!"
 
 print(greet("World"))  # Output: Hello, World!
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 
 
 # Diving Into Data with Pandas
@@ -46,10 +46,11 @@ Pandas is a powerhouse library for data manipulation and analysis, providing fle
 #DataFrame & Series
 Explore Pandas' core data structures, DataFrames, and Series, to store and manipulate tabular data.
 
-# Data Cleaning
+## Data Cleaning
 Learn techniques for preprocessing data, such as handling missing values and removing duplicates.
 
-## Example: Reading a CSV File
+# Example: Reading a CSV File
+´´´ python 
 import pandas as pd
 
 df = pd.read_csv('data/sample_data.csv')
@@ -60,6 +61,7 @@ Numerical Analysis with NumPy
 NumPy is essential for numerical computing in Python. It provides support for large, multidimensional arrays and matrices, along with a collection of mathematical functions.
 
 Example: Basic Array Operations
+´´´ python 
 import numpy as np
 
 arr = np.array([1, 2, 3, 4])
@@ -72,6 +74,8 @@ Data visualization is a critical skill in data analytics, allowing you to uncove
 Learn to use Matplotlib for basic visualizations and Seaborn for more complex, statistical visualizations.
 
 Example: Plotting a Line Chart
+
+´´´ python 
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
