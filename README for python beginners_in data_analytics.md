@@ -32,78 +32,73 @@ Learn how to control the flow of your Python programs with conditional statement
 
 ### Example: A Simple Function
 
-´´´ Python
+```python
 def greet(name):
     return f"Hello, {name}!"
 
-print(greet("World"))  # Output: Hello, World!.
-
-### Diving Into Data with Pandas: 
+print(greet("World"))  # Output: Hello, World!
+Diving Into Data with Pandas
 Pandas is a powerhouse library for data manipulation and analysis, providing flexible data structures to work with structured data.
 
-#DataFrame & Series
+DataFrame & Series
 Explore Pandas' core data structures, DataFrames, and Series, to store and manipulate tabular data.
 
-## Data Cleaning
+Data Cleaning
 Learn techniques for preprocessing data, such as handling missing values and removing duplicates.
 
-# Example: Reading a CSV File
-´´´ python 
+Example: Reading a CSV File
+python
+Copy code
 import pandas as pd
 
 df = pd.read_csv('data/sample_data.csv')
 print(df.head())
 
-........................
 Numerical Analysis with NumPy
 NumPy is essential for numerical computing in Python. It provides support for large, multidimensional arrays and matrices, along with a collection of mathematical functions.
 
 Example: Basic Array Operations
-´´´ python 
+python
+Copy code
 import numpy as np
 
 arr = np.array([1, 2, 3, 4])
 print(arr * 2)  # Output: [2 4 6 8]
-.........................
-#Visualizing Data
+
+Visualizing Data
 Data visualization is a critical skill in data analytics, allowing you to uncover insights from your data graphically.
 
-# Matplotlib & Seaborn
+Matplotlib & Seaborn
 Learn to use Matplotlib for basic visualizations and Seaborn for more complex, statistical visualizations.
 
 Example: Plotting a Line Chart
-
-´´´ python 
+python
+Copy code
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 plt.ylabel('Some numbers')
 plt.show()
+Statistical Foundations
+Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions.
 
+Descriptive Statistics
+Learn how to calculate and interpret measures like mean, median, and standard deviation.
 
-##Statistical Foundations
-
-'Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions'
-
-##Descriptive Statistics
-
-'Learn how to calculate and interpret measures like mean, median, and standard deviation'
-
-### Example: Calculating the Mean with NumPy
-
+Example: Calculating the Mean with NumPy
 python
+Copy code
 import numpy as np
 
 data = np.array([1, 2, 3, 4, 5])
-print(np.mean(data))  # Output: 3.0.
+print(np.mean(data))  # Output: 3.0
+Advanced Topics
+As you grow more comfortable with the basics, explore advanced topics like machine learning with scikit-learn, time series analysis, and deep learning fundamentals.
 
-##Advanced Topics
-'As you grow more comfortable with the basics, explore advanced topics like machine learning with scikit-learn, time series analysis, and deep learning fundamentals'
+Contributing
+Contributions to this repository are welcome! Please read through our contributing guidelines for more information on how to participate.
 
-##Contributing
-'Contributions to this repository are welcome! Please read through our contributing guidelines for more information on how to participate'
-
-#Resources
+Resources
 Pandas Documentation
 NumPy User Guide
 Matplotlib Tutorials
