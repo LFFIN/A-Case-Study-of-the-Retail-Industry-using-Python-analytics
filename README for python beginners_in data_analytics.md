@@ -80,11 +80,11 @@ plt.show()
 .........................
 # Statistical Foundations
 
-Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions.
+'Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions'
 
-## Descriptive Statistics
+# Descriptive Statistics
 
-Learn how to calculate and interpret measures like mean, median, and standard deviation.
+'Learn how to calculate and interpret measures like mean, median, and standard deviation'
 
 ### Example: Calculating the Mean with NumPy
 
