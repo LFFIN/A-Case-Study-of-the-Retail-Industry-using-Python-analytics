@@ -32,15 +32,13 @@ Learn how to control the flow of your Python programs with conditional statement
 
 ### Example: A Simple Function
 
-```python
+python
 def greet(name):
     return f"Hello, {name}!"
 
-print(greet("World"))  # Output: Hello, World!
+print(greet("World"))  # Output: Hello, World!.
 
-
-
-# Diving Into Data with Pandas
+### Diving Into Data with Pandas: 
 Pandas is a powerhouse library for data manipulation and analysis, providing flexible data structures to work with structured data.
 
 #DataFrame & Series
