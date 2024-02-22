@@ -32,7 +32,7 @@ Learn how to control the flow of your Python programs with conditional statement
 
 ### Example: A Simple Function
 
-python
+´´´ Python
 def greet(name):
     return f"Hello, {name}!"
 
