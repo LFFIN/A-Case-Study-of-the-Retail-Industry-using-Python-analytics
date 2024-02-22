@@ -68,23 +68,23 @@ print(arr * 2)  # Output: [2 4 6 8]
 #Visualizing Data
 Data visualization is a critical skill in data analytics, allowing you to uncover insights from your data graphically.
 
-## Matplotlib & Seaborn
+# Matplotlib & Seaborn
 Learn to use Matplotlib for basic visualizations and Seaborn for more complex, statistical visualizations.
 
-## Example: Plotting a Line Chart
+#Example: Plotting a Line Chart
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 plt.ylabel('Some numbers')
 plt.show()
 .........................
-## Statistical Foundations
+#Statistical Foundations
 Understanding basic statistical concepts is crucial for data analysis, enabling you to summarize data sets and draw conclusions.
 
-## Descriptive Statistics
+#Descriptive Statistics
 Learn how to calculate and interpret measures like mean, median, and standard deviation.
 
-## Example: Calculating the Mean with NumPy
+# Example: Calculating the Mean with NumPy
 import numpy as np
 
 data = np.array([1, 2, 3, 4, 5])
@@ -96,7 +96,7 @@ As you grow more comfortable with the basics, explore advanced topics like machi
 ## Contributing
 Contributions to this repository are welcome! Please read through our contributing guidelines for more information on how to participate.
 
-## Resources
+#Resources
 Pandas Documentation
 NumPy User Guide
 Matplotlib Tutorials
